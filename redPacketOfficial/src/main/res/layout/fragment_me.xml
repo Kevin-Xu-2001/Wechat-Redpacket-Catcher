@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mebackground"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/title_bg_green" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="关于作者"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="193dp"
+        android:weightSum="1"
+        android:layout_weight="0.12">
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="216dp"
+            android:padding="10dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="155dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/blankhead"
+                android:id="@+id/headImage"
+                android:layout_weight="0.30" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="224dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Kevin Xu"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:layout_marginBottom="4dp"
+                android:text="来自中国南京的一位"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:id="@+id/textView3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="年轻的IT开发工程师"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="204dp"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="目前致力于实用、有趣的项目的开源与分享"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.红包助手问题咨询"
+            android:layout_margin="4dp"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:id="@+id/textView2"
+            android:textColor="#800080" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.软件开发技术交流"
+            android:layout_marginTop="4dp"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:id="@+id/textView4"
+            android:textColor="#800080" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(想要学习源码的话可以找我要)"
+            android:textSize="18sp"
+            android:layout_marginBottom="4dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:textColor="#800080" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.商业合作"
+            android:layout_margin="4dp"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:id="@+id/textView5"
+            android:textColor="#800080" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="均可以用微信或QQ联系我"
+        android:layout_margin="4dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:id="@+id/textView6"
+        android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="wx:13770599411"
+            android:layout_margin="4dp"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:id="@+id/textView7"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="qq:2294608561"
+            android:layout_margin="4dp"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:id="@+id/textView8"
+            android:textStyle="normal|bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

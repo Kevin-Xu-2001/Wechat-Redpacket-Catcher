@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">红包助手</string>
+    <string name="accessibility_service_description">红包助手是一款迅速的，免费的，绿色无广告的，开源的微信抢红包神器。它基于辅助功能实现，既能有全自动抢红包的强大功能，又不会进入操作系统造成隐患。因此请放心开启辅助功能！</string>
+</resources>
